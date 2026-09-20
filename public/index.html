@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>AI Assistant</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="wrapper">
+      <section class="card">
+        <div class="badge">AI POWERED</div>
+
+        <h1>AI Assistant</h1>
+
+        <p class="subtitle">
+          Enter a prompt and receive an AI-generated response.
+        </p>
+
+        <form id="aiForm">
+          <label for="promptInput"> Your Prompt </label>
+
+          <textarea
+            id="promptInput"
+            rows="5"
+            placeholder="Example: Explain JavaScript in simple words..."
+          ></textarea>
+
+          <button id="generateButton" type="submit">Generate Response</button>
+        </form>
+
+        <p id="errorMessage" class="error" role="alert"></p>
+
+        <section class="result-section">
+          <h2>AI Response</h2>
+
+          <div id="result" class="result" aria-live="polite">
+            Your AI response will appear here.
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
