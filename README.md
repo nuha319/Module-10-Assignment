@@ -1,4 +1,4 @@
-As this is a public repository, I have not included my Gemini API key in the project files for security reasons. 
-My API key is stored in a .env file, which is listed in .gitignore and therefore is not included in this repository.
-To test the functionality of my project, please create a .env file in the project root, add a Gemini API key of your own and 
-run npm install.
+<img width="1901" height="907" alt="image" src="https://github.com/user-attachments/assets/2e806e71-e965-4c56-852c-4c560d0f3ea3" />
+
+An AI-powered chatbot that provides real-time, conversational responses.  
+
